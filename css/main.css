@@ -1,3 +1,4 @@
+/* style general */
 *{
     margin: 0;
     padding: 0;
@@ -7,15 +8,22 @@
     scroll-behavior: smooth;
 }
 body{
-    width: 95%;
+    max-width: 1120px;
+    width: 90%;
     margin: auto;
+    background: #fff;
 }
+p{
+    color: #fff;
+    font-size: 20px;
+}
+/* especificos */
 header{
     border-radius: 20px 20px 0 0;
     width: 100%;
     display: flex;
     flex-direction: row;
-    background: #000;
+    background: #2E5F80;
     flex-wrap: wrap;
     padding-bottom: 15px;
     color: #fff;
@@ -27,15 +35,17 @@ header{
     height: 45px;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
 }
 .title{
     margin-left: 5px;
     width: 50%;
     display: flex;
     flex-direction: column;
+    color: #ffffff;
 }
 .titulo{
+    color: #ffffff;
     margin: 0;
     width: 100%;
     font-size: 20px;
@@ -44,6 +54,7 @@ header{
     margin: 0;
     width: 100%;
     font-size: 15px;
+    color: #fff;
 }
 .social-media{
     width: 30%;
@@ -55,15 +66,10 @@ header{
     justify-content: center;
     width: 40px;
     height: 40px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-radius: 50%;
     text-align: center;
     color: #fff;
-}
-.social-media-icon:hover{
-    background:#fff;
-    color: #000;
-    border: 1px solid #fff;
 }
 .social-media-icon i{
     font-size: 25px;
@@ -111,24 +117,177 @@ header{
     border-radius: 10px;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
+/* main */
 .contenedor{
-    width: 90%;
+    background: #172F40;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     max-width: 1200px;
     overflow: hidden;
     margin: auto;
     padding: 60px 0;
 }
 .subtitulo{
+    width: 100%;
+    color: #fff;
     text-align: center;
     font-weight: 200;
-    color: #000;
     margin-bottom: 40px;
     font-size: 40px;
     font-weight: bold;
 }
 
+.imagen-perfil{
+    width: 45%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imagen-perfil img{
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+.resumen{
+    width: 45%;
+    margin: 0 auto;
+}
+
+#trayectoria{
+    background-color: #fff;
+}
+#trayectoria h5{
+    color: #000;
+}
+
+.experiencia{
+    border-radius: 30px;
+    width:45%;
+    margin: auto;
+    background: #2E5F80;
+    padding: 25px 5%;
+    margin-top: 25px;
+}
+
+.puesto{
+    font-size: 25px;
+}
+.empresa{
+    display: block;
+    color: #458EBF;
+}
+
+.fechai-experiencia{
+    display: inline;
+    color: #458EBF;
+}
+.fechasf-experiencia{
+    display: inline;
+    color: #458EBF;
+}
+
+.pais-experiencia{
+    display: block;
+    color: #458EBF;
+}
+
+.experiencia p{
+    font-size: 16px;
+}
+
+.educacion{
+    border-radius: 30px;
+    width:45%;
+    margin: auto;
+    background: #2E5F80;
+    padding: 25px 5%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-height: 100px; */
+}
+.logo-edu{
+    width: 20%;
+}
+.logo-edu img{
+    width: 80%;
+}
+.info-edu h6{
+    font-size: 20px;
+}
+.cursos{
+    /* background: #2E5F80; */
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.admin h3{
+    width: 100%;
+    text-align: center;
+}
+.admin img{
+    width: 25%;
+}
+.curso{
+    border-radius: 30px;
+    width:70%;
+    margin: auto;
+    background: #2E5F80;
+    padding: 25px 5%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* max-height: 100px; */
+}
+.info-curso{
+    width: 70%;
+}
+.info-curso p{
+    margin-left: 5px;
+    font-size: 15px;
+}
+.nombre-curso{
+}
+.nombre-curso a{
+    text-decoration: none;
+    color: #fff;
+}
+.entidad{
+
+}
+.entidad a{
+    text-decoration: none;
+    color: #000;
+}
+.fecha-curso{
+
+}
+
+/* hover */
+.social-media-icon:hover{
+    background:#fff;
+    color: #000;
+    border: 1px solid #fff;
+}
 .menu-item:hover{
     color: #000;
     background: #fff;
-    border: 1px solid #fff;
 }
