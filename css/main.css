@@ -105,6 +105,10 @@ header{
     text-decoration: none;
     color: #fff;
 }
+.active{
+    background:#fff;
+    color: #000 !important;;
+}
 .hamburguer{
     display: none;
     position: fixed;
@@ -154,6 +158,7 @@ header{
 .resumen{
     width: 45%;
     margin: 0 auto;
+    /*text-align: justify;*/
 }
 
 #trayectoria{
@@ -219,34 +224,36 @@ header{
 .info-edu h6{
     font-size: 20px;
 }
-.cursos{
-    /* background: #2E5F80; */
-    padding: 20px 0;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    /* border: 1px solid red; */
-    /* justify-content: center; */
-    /* align-items: center; */
 
-}
-.admin{
+.barra-cursos{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     flex-wrap: wrap;
 }
-.admin h3{
+.barra-cursos h3{
     width: 100%;
     text-align: center;
+    color: #fff;
+    font-size: 30px;
 }
-.admin img{
+.barra-cursos img{
     width: 25%;
 }
+
+/* cursos*/
+.cursos{
+    background: #458EBF;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .curso{
     border-radius: 30px;
-    width:70%;
+    width:80%;
     margin: auto;
     background: #2E5F80;
     padding: 25px 5%;
@@ -255,7 +262,6 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* max-height: 100px; */
 }
 .info-curso{
     width: 70%;
@@ -264,21 +270,13 @@ header{
     margin-left: 5px;
     font-size: 15px;
 }
-.nombre-curso{
-}
 .nombre-curso a{
     text-decoration: none;
     color: #fff;
 }
-.entidad{
-
-}
 .entidad a{
     text-decoration: none;
-    color: #000;
-}
-.fecha-curso{
-
+    color: #53ABE6;
 }
 
 /* hover */
