@@ -93,8 +93,10 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    margin: 5px;
 }
 .menu-item{
+    margin: 10px;
     padding: 10px;
     width: 100%;
     height: 100%;
@@ -156,18 +158,24 @@ header{
     box-shadow: 0 0 15px rgba(0, 0, 0, 1);
 }
 .resumen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 45%;
     margin: 0 auto;
-    /*text-align: justify;*/
 }
-
-#trayectoria{
+#experiencia{
     background-color: #fff;
 }
-#trayectoria h5{
+#experiencia h5{
     color: #000;
 }
-
+#formacion{
+    background-color: #fff;
+}
+#formacion h2{
+    color: #000;
+}
 .experiencia{
     border-radius: 30px;
     width:45%;
@@ -176,7 +184,6 @@ header{
     padding: 25px 5%;
     margin-top: 25px;
 }
-
 .puesto{
     font-size: 25px;
 }
@@ -184,7 +191,6 @@ header{
     display: block;
     color: #458EBF;
 }
-
 .fechai-experiencia{
     display: inline;
     color: #458EBF;
@@ -193,16 +199,13 @@ header{
     display: inline;
     color: #458EBF;
 }
-
 .pais-experiencia{
     display: block;
     color: #458EBF;
 }
-
 .experiencia p{
     font-size: 16px;
 }
-
 .educacion{
     border-radius: 30px;
     width:45%;
@@ -224,7 +227,6 @@ header{
 .info-edu h6{
     font-size: 20px;
 }
-
 .barra-cursos{
     display: flex;
     justify-content: center;
@@ -241,7 +243,6 @@ header{
 .barra-cursos img{
     width: 25%;
 }
-
 /* cursos*/
 .cursos{
     background: #458EBF;
@@ -250,7 +251,6 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
-
 .curso{
     border-radius: 30px;
     width:80%;
@@ -278,7 +278,6 @@ header{
     text-decoration: none;
     color: #53ABE6;
 }
-
 /* hover */
 .social-media-icon:hover{
     background:#fff;
